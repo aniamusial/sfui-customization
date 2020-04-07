@@ -1,5 +1,7 @@
 <template>
 <div class="wrapper">
+  <h2>Easy theming</h2>
+  <SfAddToCart></SfAddToCart>
   <h2>Customization with CSS Variables</h2>
   <SfAddToCart class="custom"></SfAddToCart>
   <br/>

@@ -17,6 +17,9 @@ export default {
 
 <style>
 #app {
+  /* EASY THEMING - GLOBAL STYLES */
+  --body-font-family-primary: 'Raleway', serif;
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
