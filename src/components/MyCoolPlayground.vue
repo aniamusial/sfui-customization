@@ -2,6 +2,7 @@
 <div class="wrapper">
   <h2>Easy theming</h2>
   <SfAddToCart></SfAddToCart>
+  <br />
   <h2>Customization with CSS Variables</h2>
   <SfAddToCart class="custom"></SfAddToCart>
   <br/>
@@ -26,12 +27,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .custom {
     /* CUSTOMIZATION WITH CSS VARIABLES PER COMPONENT */
     --button-font-weight: 700;
-    --button-background: red;
+    --button-font-family: 'Arial Narrow', sans-serif;
+    --button-background: #c9192e;
     --button-width: 12rem;
+    --input-color: #c9192e;
     --input-margin: 0 0.5rem;
 }
 

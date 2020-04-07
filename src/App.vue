@@ -19,7 +19,8 @@ export default {
 #app {
   /* EASY THEMING - GLOBAL STYLES */
   --body-font-family-primary: 'Raleway', serif;
-  
+  --c-primary-variant: black;
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
