@@ -6,6 +6,7 @@
   <h2>Customization with CSS Variables</h2>
   <SfAddToCart class="custom"></SfAddToCart>
   <br/>
+  <!-- CUSTOMIZATION WITH SLOTS -->
   <h2>Customization with slots</h2>
   <SfAddToCart>
     <template #quantity-select-input>
