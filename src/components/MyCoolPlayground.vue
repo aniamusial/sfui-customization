@@ -4,7 +4,11 @@
   <SfAddToCart class="custom"></SfAddToCart>
   <br/>
   <h2>Customization with slots</h2>
-  <SfAddToCart></SfAddToCart>
+  <SfAddToCart>
+    <template #quantity-select-input>
+      🔥
+    </template>
+  </SfAddToCart>
 
 </div>
 </template>
@@ -16,12 +20,6 @@ export default {
   name: 'App',
   components: {
     SfAddToCart
-  },
-  props: {
-      title: {
-          type: String,
-          default: ""
-      }
   }
 }
 </script>

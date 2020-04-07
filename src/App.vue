@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <MyCoolBanner title="Hello"></MyCoolBanner>
+    <MyCoolPlayground></MyCoolPlayground>
   </div>
 </template>
 
 <script>
-import MyCoolBanner from "./components/MyCoolBanner"
+import MyCoolPlayground from "./components/MyCoolPlayground"
 
 export default {
   name: 'App',
   components: {
-    MyCoolBanner
+    MyCoolPlayground
   }
 }
 </script>
