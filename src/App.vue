@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <SfButton>Hello</SfButton>
+    <MyCoolBanner title="Hello"></MyCoolBanner>
   </div>
 </template>
 
 <script>
-import { SfButton } from "@storefront-ui/vue";
+import MyCoolBanner from "./components/MyCoolBanner"
 
 export default {
   name: 'App',
   components: {
-    SfButton
+    MyCoolBanner
   }
 }
 </script>
